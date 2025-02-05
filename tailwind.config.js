@@ -9,10 +9,7 @@ export default {
       colors: {
         grayCustomNav: ['#F5F5F5'],
         whiteBg: ['#FFFFFF'],
-      },     
-      fontFamily: {
-        helvetica: ['Helvetica Neue', 'sans-serif'],
-      },
+      }
     },
   },
   plugins: [],
