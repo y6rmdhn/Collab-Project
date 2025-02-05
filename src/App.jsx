@@ -1,6 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
-import { GridUp } from "./components/GridUp";
+import { ContentUp } from "./components/ContentUp";
 import { ContentBottom } from "./components/ContentBottom";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <GridUp />
+      <ContentUp />
       <ContentBottom />
     </>
   );
