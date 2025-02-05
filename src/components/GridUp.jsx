@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "./UI/Button";
 
 export const GridUp = () => {
   return (
@@ -9,9 +10,9 @@ export const GridUp = () => {
           <h1 className="text-white text-2xl font-semibold">
             The Latest Nike Bras
           </h1>
-          <button className="bg-white text-black px-5 py-1.5 mt-4 rounded-full font-semibold">
+          <Button bgColor={"#fff"} colorFont={"#000"}>
             Shop
-          </button>
+          </Button>
         </div>
       </div>
     </section>
