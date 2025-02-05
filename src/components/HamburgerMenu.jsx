@@ -19,7 +19,6 @@ export const HamburgerMenu = () => {
         </button>
       </div>
 
-      {/* Sidebar navigation */}
       <nav className={`fixed top-0 right-0 h-full w-80 bg-white text-black transform ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out overflow-y-auto`}>
         <button className="absolute top-5 right-8 text-black focus:outline-none z-50" onClick={toggleMenu}>
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

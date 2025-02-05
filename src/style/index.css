@@ -1,6 +1,7 @@
 #app {
   height: 100%;
 }
+
 html,
 body {
   position: relative;
@@ -20,7 +21,7 @@ body {
   height: 100%;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   color: #000;
 }
 
